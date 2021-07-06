@@ -12,7 +12,7 @@ class CalculatorTest {
         int firstOperand = 1;
         int secondOperand = 1;
         char operator = '+';
-        int expected = 3;
+        int expected = 2;
 
         int result = Calculator.calculate(firstOperand, secondOperand, operator);
         assertEquals(expected, result);
